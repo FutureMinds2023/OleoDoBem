@@ -1,6 +1,6 @@
-# Óleo do Bem
-## Versão: 1.0 
-## Status do Projeto: ⚠️ Espera 
+# Óleo Limpo
+## Versão: 1.2 
+## Status do Projeto: ⚠️ Em desenvolvimento
 
 ## Tópicos
 🔹 Descrição do projeto 
@@ -43,45 +43,47 @@ Desenvolvimento de um site dedicado à conscientização e engajamento para a co
 
 ✔️ Página de Login
 
+✔️ Área do doador
+
 ✔️ Área de admin
 
 
 ## Distribuição
-Link para teste da versão disponibilizada.
+Ainda não há distribuição
 
 ## Pré-requisitos ⚠️    
-Versão do Android; 
-SDK; 
-Aparelho utilizado para testes.
-- Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação, para rodar o projeto.
+Navegador capaz de exibir o site.
 
 ## Como rodar a aplicação 
-Rodar em navegador que suporta o projeto
+Rodar em navegador que suporta as tecnologias utilizadas (css, html, php).
 
 ## Testes realizados
-Utilização de imagens e descrição do qeu foi testado.
+Utilização de imagens e descrição do que foi testado.
 
 ## Banco de Dados 🗂️
-Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
+Banco de dados relacional, utilizando a linguagem SQL e phpMyAdmin
 
 ## Linguagens, dependencias e libs utilizadas 📚
-HTML, Javascript, CSS, Bootstrap, 
+HTML, Javascript, CSS, Bootstrap, PHP 
 
 XML
 ...
-Liste as tecnologias utilizadas no projeto que não forem reconhecidas pelo Github
+Ainda não foram detectadas as tecnologias.
 
 ## Resolvendo Problemas 
-Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
+Issues ainda não foram abertas.
 
 ## Recursos de inseridos 🧰
 Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
 
-📝 Tarefa 1
+📝 Tela de Login
 
-📝 Tarefa 2
+📝 Tela de Doação
 
-📝 Tarefa 3
+📝 Tela de Cadastro de Empresa
+
+📝 Tela de Confirmação de Doação
+
 
 ## Desenvolvedores/Contribuintes:
 Pedro Luiz Vidal Athayde,  pedro_athayde@outlook.com,
@@ -97,4 +99,4 @@ Raphael Carneiro Gomes, carneirogomesraphael@gmail.com
 ## Licença
 The MIT License (MIT)
 
-## Copyright ©️ 2023 - Oleo do Bem
+## Copyright ©️ 2023 - Óleo Limpo
