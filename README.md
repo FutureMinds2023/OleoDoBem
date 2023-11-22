@@ -1,5 +1,5 @@
 # Óleo Limpo
-## Versão: 1.2 
+## Versão: 1.3 
 ## Status do Projeto: ⚠️ Em desenvolvimento
 
 ## Tópicos
