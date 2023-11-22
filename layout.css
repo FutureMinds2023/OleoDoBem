@@ -1,0 +1,141 @@
+.input_teste{border: none;
+      border-bottom: 2px solid black;}
+
+.body_1 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.5s ease both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.label1 {
+  font-weight: bold;
+}
+
+.button1 {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+  background-color: #0056b3;
+}
+
+#success-message {
+  display: none;
+  color: #28a745;
+  margin-top: 10px;
+  animation: fadeIn 0.5s ease both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#error-message {
+  display: none;
+  color: #dc3545;
+  margin-top: 10px;
+  animation: fadeIn 0.5s ease both;
+}
+.cima_dir {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.navbar-toggler-icon {
+  background-image: none!important;
+  background-color: var(--bs-gray-800);
+  height: 3px;
+  width: 25px;
+  margin: 10px 0;
+  position: relative;
+  transition: all 0.35s ease-out;
+  transform-origin: center;
+}
+
+.navbar-toggler-icon::before {
+  display: block;
+  background-color: var(--bs-gray-800);
+  height: 3px;
+  content: "";
+  position: relative;
+  top: -7px;
+  transition: all 0.15s ease-out;
+  transform-origin: center;
+}
+
+.navbar-toggler-icon::after {
+  display: block;
+  background-color: var(--bs-gray-800);
+  height: 3px;
+  content: "";
+  position: relative;
+  top: 4px;
+  transition: all 0.35s ease-out;
+  transform-origin: center;
+}
+
+.navbar-dark .navbar-toggler-icon, .navbar-dark .navbar-toggler-icon::before, .navbar-dark .navbar-toggler-icon::after {
+  background-color: var(--bs-gray-100);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {
+  opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
+  transform: rotate(-90deg) translateX(7px);
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  transition: all 0.35s ease-in-out;
+}
+/*cadastro de clientes */
+.inputcad1{width:300px;
+           border: none;
+           border-bottom: 2px solid black;}
